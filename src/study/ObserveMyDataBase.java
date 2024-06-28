@@ -12,7 +12,7 @@ import java.util.Scanner;
 import ch01.dto.Employee;
 
 public class ObserveMyDataBase {
-
+	
 	public static void main(String[] args) {
 	
 		// url 주소 설정 , user 설정 , password 설정
@@ -123,7 +123,7 @@ public class ObserveMyDataBase {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
+		
 	}
 
 }
